@@ -1,0 +1,97 @@
+
+.hideelement {
+    
+    display: none;
+    opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+  }
+.showelement {
+    
+    opacity: 1;
+    
+  }
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.interval-line {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  background-color: red;
+}
+
+/* Custom styling for the Home component */
+
+/* Styling for the video uploader and editor sections */
+.video-section {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-uploader,
+.video-editor {
+  width: calc(50% - 20px);
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-uploader:hover,
+.video-editor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for upload button */
+.upload-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for subtitle input */
+.subtitle-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Styling for save button */
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.save-button:hover {
+  background-color: #1e7e34;
+}
+
+
+
